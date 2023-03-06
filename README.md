@@ -23,6 +23,10 @@ docker pull dennigogo/gotorch-docker:utils-bullseye-cuda11.7
 - `/go/src/github.com/wangkuiyi/gotorch/cgotorch/linux-cuda117/libtorch/lib` => `/usr/lib`
 - `/opt/opencv/build/lib`                                                    => `/usr/lib`
 - `/go/src/github.com/wangkuiyi/gotorch/resnet`                              => `/bin/resnet`
+- `/go/src/github.com/wangkuiyi/gotorch/tarball_divide`                      => `/bin/tarball_divide`
+- `/go/src/github.com/wangkuiyi/gotorch/tarball_merge`                       => `/bin/tarball_merge`
 
 ### Utils
 - `/bin/resnet`
+- `/bin/tarball_divide`
+- `/bin/tarball_merge`
