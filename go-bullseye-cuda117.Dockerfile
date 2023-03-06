@@ -50,3 +50,6 @@ RUN go mod download --json
 WORKDIR /go/src/github.com/wangkuiyi/gotorch/cgotorch
 ADD cgotorch/build.sh .
 RUN ./build.sh
+
+WORKDIR /go/src/github.com/wangkuiyi/gotorch
+RUN go build -o resnet ./example/resnet

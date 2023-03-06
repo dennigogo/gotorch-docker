@@ -22,3 +22,7 @@ docker pull dennigogo/gotorch-docker:utils-bullseye-cuda11.7
 - `/go/src/github.com/wangkuiyi/gotorch/cgotorch/libcgotorch.so`             => `/usr/lib/libcgotorch.so`
 - `/go/src/github.com/wangkuiyi/gotorch/cgotorch/linux-cuda117/libtorch/lib` => `/usr/lib`
 - `/opt/opencv/build/lib`                                                    => `/usr/lib`
+- `/go/src/github.com/wangkuiyi/gotorch/resnet`                              => `/bin/resnet`
+
+### Utils
+- `/bin/resnet`
