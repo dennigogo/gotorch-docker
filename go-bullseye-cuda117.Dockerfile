@@ -53,3 +53,5 @@ RUN ./build.sh
 
 WORKDIR /go/src/github.com/wangkuiyi/gotorch
 RUN go build -o resnet ./example/resnet
+RUN go build -o tarball_divide ./tool/tarball_divide
+RUN go build -o tarball_merge ./tool/tarball_merge
